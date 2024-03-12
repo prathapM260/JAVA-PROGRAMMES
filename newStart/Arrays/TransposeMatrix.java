@@ -15,6 +15,14 @@ public class TransposeMatrix {
                 arr[i][j]=sc.nextInt();
 
             }
+
+            for (int i=0;i<M;i++){
+                for(int j=0;j<N;j++){
+                    System.out.print(arr[i][j]);
+                }
+            }
+
+
         }
         for(int i=0;i<N;i++){
             for(int j=0;j<M;j++){
@@ -22,7 +30,5 @@ public class TransposeMatrix {
             }
             System.out.println();
         }
-
     }
-    
-}
+
